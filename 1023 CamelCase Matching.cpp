@@ -1,4 +1,4 @@
-// 1023. Camelcase Matching
+// problem 1023 Camelcase Matching
 
 // A query word matches a given pattern if we can insert lowercase letters to the pattern word so that it equals the query. 
 // (We may insert each character at any position, and may insert 0 characters.)
