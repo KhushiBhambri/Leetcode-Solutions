@@ -6,11 +6,10 @@
 ## CLICK TO VIEW [PROBLEM SOLUTIONS](https://github.com/KhushiBhambri/Leetcode-Solutions) WITH PROBLEM IDS.
 
 <p align="center">
-<img src="LS.jpeg" width=100% height=400 align = CENTRE> 
+<img src="LS.jpeg" width=300> 
 
 <these are coments>
 </p>
 
 
-&copy; 
-[Khushi Bhambri](https://github.com/KhushiBhambri/)
+&copy; [Khushi Bhambri](https://github.com/KhushiBhambri/)
