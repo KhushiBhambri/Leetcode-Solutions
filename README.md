@@ -7,9 +7,9 @@
 
 <p align="center">
 <img src="LS.jpeg" width=300> 
+</p>
 
 <these are coments>
-</p>
 
 
 &copy; [Khushi Bhambri](https://github.com/KhushiBhambri/)
