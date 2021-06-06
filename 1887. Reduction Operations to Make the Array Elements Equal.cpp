@@ -1,4 +1,4 @@
-// problem 1887. Reduction Operations to Make the Array Elements Equal
+// problem 188: Reduction Operations to Make the Array Elements Equal
 
 // Given an integer array nums, your goal is to make all elements in nums equal. 
 //To complete one operation, follow these steps:
