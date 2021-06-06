@@ -9,7 +9,7 @@
 <img src="LS.jpeg" width=300> 
 </p>
 
-<these are coments>
 
 
-&copy; [Khushi Bhambri](https://github.com/KhushiBhambri/)
+
+&copy;[Khushi Bhambri](https://github.com/KhushiBhambri/)
