@@ -12,4 +12,4 @@
 <comment>
 
 
-&copy;[Khushi Bhambri](https://github.com/KhushiBhambri/)
+&copy; [Khushi Bhambri](https://github.com/KhushiBhambri/)
