@@ -6,11 +6,6 @@ public:
     int scheduleCourse(vector<vector<int>>& courses) {
         int n = courses.size();
         priority_queue<int> pq;
-        // for(int i=0;i<n;i++){
-        //     int d=courses[i][0];
-        //     int l=courses[i][1];
-        //     pq.push({courses[i][0],courses[i][1]});
-        // }
         int last=0;
         int ans=0;
         sort(courses.begin(),courses.end(),comp);
