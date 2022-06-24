@@ -10,12 +10,12 @@ public:
         while(1){
             int top=pq.top();
             pq.pop();
-            int RestSum=sum-top;
-            if(top==1 || RestSum==1) return true;
-            if(RestSum>=top || RestSum<=0) return false;
-            int num=top%RestSum;
+            sum-=top;
+            if(top==1 || sum==1) return true;
+            if(sum>=top ||sum<=0) return false;
+            int num=top%sum;
             if(num<=0) return false;
-            sum=RestSum+num;
+            sum+=num;
             pq.push(num);
         }
         return false;
