@@ -2,21 +2,18 @@ class Solution {
 public:
     bool isPossible(vector<int>& target) {
         long long sum=0;
-        priority_queue<int>pq;
-        for(auto it:target){
-            sum+=it;
-            pq.push(it);
-        }
-        while(1){
-            int top=pq.top();
+        priority_queue<int> pq;
+        int n = target.size();
+        for(int i=0;i<n;i++) { sum+=target[i]; pq.push(target[i]); }
+        while(pq.size()){
+            int t = pq.top();
             pq.pop();
-            sum-=top;
-            if(top==1 || sum==1) return true;
-            if(sum>=top ||sum<=0) return false;
-            int num=top%sum;
-            if(num<=0) return false;
-            sum+=num;
-            pq.push(num);
+            sum-=t;
+            if(sum==1 || t==1) return true;
+            if(sum>=t || sum<=0|| t%sum<=0 ) return false;
+            t=t%sum;
+            pq.push(t);
+            sum+=t;
         }
         return false;
     }
